@@ -1,15 +1,15 @@
 import { isGeneratorObject } from "util/types";
 import "./App.css";
 
-import Button from "./buttonEl/buttonElement";
+import Button from "./components/buttonElement";
+import AppC from "./components/AppContent";
 
 function App() {
   return (
     <>
+      <AppC content="content" />
       <div>
-        <h1>Hej react!!!!</h1>
-        <p>Test paragraf</p>
-        <Button buttonName="PRZEJDZ DALEJJJJasdasd" url="" />
+        <Button buttonName="przejdz" url="" />
       </div>
     </>
   );

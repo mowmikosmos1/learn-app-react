@@ -15,8 +15,15 @@ code {
 
 h1{
   color: aqua;
+  padding: 25px;
 }
-button{
+p {
+  padding: 25px;
+  color:chartreuse;
+}
+Button{
   width: 600px;
   height: 150px;
+  padding: 50px;
+
 }
